@@ -286,7 +286,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu ul li {
-  min-width: 180px;
+  min-width: 200px;
 }
 
 /* Nav Menu Arrows */
@@ -580,6 +580,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #fff;
   padding: 60px 0 0 0;
   overflow: hidden;
+ text-align: center;
 }
 
 #features .features-img {
@@ -641,7 +642,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 #features .section-description {
   padding-bottom: 10px;
 }
-
+.features .h3{
+text-align: center;
+}
+/* .choose .h3 {
+  text-align:center;
+} */
 /* Product Advanced Featuress Section
 --------------------------------*/
 #advanced-features {
