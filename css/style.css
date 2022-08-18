@@ -125,7 +125,7 @@ h1, h2, h3, h4, h5, h6 {
 #intro {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(45deg, rgba(60, 135, 108, 0.8), rgba(48, 137, 140, 0.8)), url("../img/intro-bg.jpg") center top no-repeat;
+  background: linear-gradient(45deg, #3c876ccc, #30898ccc), url("../img/intro-bg.jpg") center top no-repeat;
   background-size: cover;
   position: relative;
 }
