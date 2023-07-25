@@ -7,7 +7,24 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+.my-card {
+  text-align: center; /* Center the images horizontally */
+  padding: 10px; /* Add spacing between the cards */
+ 
+}
 
+.my-card img {
+  width: 100%; /* Make the images occupy the full width of the container */
+  height: auto; /* Maintain aspect ratio of the images */
+  border-radius:20px;
+  width: 80%;
+  height:80%;
+}
+#service{
+width: 70%;
+margin: auto;
+
+}
 .slider_section ol.carousel-indicators {
   margin: 0;
   -webkit-box-pack: start;
