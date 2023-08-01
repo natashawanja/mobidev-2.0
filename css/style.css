@@ -47,18 +47,9 @@
   }
 }
 
-/* Desktop styles */
-@media screen and (min-width: 1024px) {
-  body {
-    font-size: 20px;
-    padding: 40px;
-    margin: 40px;
-  }
 
-  .hide-on-desktop {
-    display: none;
-  }
-}
+
+
 
 
 .my-card {
