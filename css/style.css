@@ -207,17 +207,16 @@ h1, h2, h3, h4, h5, h6 {
 
 #intro .intro-text {
   position: absolute;
-  /* left: 0; */
+  left: 0;
   top: 60px;
   right: 100;
   height: calc(50% - 60px);
-  display: inline-block;
+  display: inline-flexbox;
   align-items: center;
   justify-content: center;
   text-align: left;
   flex-direction: column;
   padding-top: 20%;
-  padding-bottom: 50%;
   
 }
 
