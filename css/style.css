@@ -7,6 +7,23 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+/* On screens that are 600px wide or less, make the body text smaller */
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/* On screens that are 320px wide or less, make the body text even smaller */
+@media screen and (max-width: 320px) {
+  body {
+    font-size: 12px;
+  }
+}
+@media (max-width: 320px) and (orientation: portrait) and (device-type: iphone) {
+  /* Styles for iPhones */
+}
+
 .my-card {
   text-align: center; /* Center the images horizontally */
   padding: 10px; /* Add spacing between the cards */
