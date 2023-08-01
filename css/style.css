@@ -8,21 +8,58 @@
 # General
 --------------------------------------------------------------*/
 /* On screens that are 600px wide or less, make the body text smaller */
-@media screen and (max-width: 600px) {
+/* Mobile styles */
+@media screen and (max-width: 480px) {
   body {
     font-size: 14px;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .hide-on-mobile {
+    display: none;
   }
 }
 
-/* On screens that are 320px wide or less, make the body text even smaller */
-@media screen and (max-width: 320px) {
+/* Tablet styles */
+@media screen and (min-width: 480px) and (max-width: 768px) {
   body {
-    font-size: 12px;
+    font-size: 16px;
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .hide-on-tablet {
+    display: none;
   }
 }
-@media (max-width: 320px) and (orientation: portrait) and (device-type: iphone) {
-  /* Styles for iPhones */
+
+/* Laptop styles */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  body {
+    font-size: 18px;
+    padding: 30px;
+    margin: 30px;
+  }
+
+  .hide-on-laptop {
+    display: none;
+  }
 }
+
+/* Desktop styles */
+@media screen and (min-width: 1024px) {
+  body {
+    font-size: 20px;
+    padding: 40px;
+    margin: 40px;
+  }
+
+  .hide-on-desktop {
+    display: none;
+  }
+}
+
 
 .my-card {
   text-align: center; /* Center the images horizontally */
