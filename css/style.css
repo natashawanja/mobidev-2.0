@@ -15,12 +15,12 @@
   body {
     font-size: 14px;
     padding: 10px;
-    margin: 10px;
+    
   }
 
-  .hide-on-mobile {
+  /* .hide-on-mobile {
     display: none;
-  }
+  } */
 }
 
 /* Tablet styles */
@@ -28,12 +28,12 @@
   body {
     font-size: 16px;
     padding: 20px;
-    margin: 20px;
+    
   }
 
-  .hide-on-tablet {
+  /* .hide-on-tablet {
     display: none;
-  }
+  } */
 }
 
 /* Laptop styles */
@@ -41,13 +41,14 @@
   body {
     font-size: 18px;
     padding: 30px;
-    margin: 30px;
+    
   }
 
   .hide-on-laptop {
     display: none;
   }
 }
+
 
 
 
